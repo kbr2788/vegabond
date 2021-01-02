@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //버튼 누르면 SignUp으로 이동
         Button imageButton = (Button) findViewById(R.id.button3);
         imageButton.setOnClickListener(new View.OnClickListener(){
 
