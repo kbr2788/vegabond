@@ -2,4 +2,10 @@
     <string name="app_name">project</string>
     <string name="test">TestButton</string>
     <string name="button">Button</string>
+    <string name="title_activity_survey">SurveyActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
 </resources>

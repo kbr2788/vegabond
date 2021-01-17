@@ -14,6 +14,7 @@ import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
 import com.example.project.MainActivity;
 import com.example.project.R;
+import com.example.project.SurveyActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -21,7 +22,7 @@ import org.json.JSONObject;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText et_id, et_pwd;
-    private Button btn_login,btn_signup;
+    private Button btn_login,btn_signup, btn_skip;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         et_pwd = findViewById(R.id.et_pwd);
         btn_login = findViewById(R.id.btn_login);
         btn_signup = findViewById(R.id.btn_signup);
+        btn_skip = findViewById(R.id.btn_skip);
 
         //SignUp 버튼 -> 해당 화면으로 이동
         btn_signup.setOnClickListener(new View.OnClickListener(){
@@ -59,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                                 String user_pwd = jsonObject.getString("password");
 
                                 Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                                Intent intent = new Intent(LoginActivity.this, SurveyActivity.class);
                                 intent.putExtra("user_id", user_id);
                                 intent.putExtra("user_pwd", user_pwd);
                                 startActivity(intent);
@@ -75,6 +77,16 @@ public class LoginActivity extends AppCompatActivity {
                 LoginRequest loginRequest = new LoginRequest(user_id, user_pwd, responseListner);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
+            }
+        });
+
+        //개발단계에서 로그인 skip 할 수 있도록 임시로 설정
+        btn_skip.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(LoginActivity.this, SurveyActivity.class);
+                startActivity(intent);
+                finish();
             }
         });
 

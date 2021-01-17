@@ -11,8 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGIN"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_signup
-"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_signup"
         app:layout_constraintEnd_toEndOf="@+id/et_pwd" />
 
     <Button
@@ -63,4 +62,11 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/et_id"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Test) Skip"
+        android:textAllCaps="false"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
