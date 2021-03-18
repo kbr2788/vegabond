@@ -21,7 +21,7 @@ public class SignupRequest extends  StringRequest{
         map.put("password",password);
         map.put("user_name",user_name);
         map.put("birthday",birthday);
-        map.put("gener",gender);
+        map.put("gender",gender);
     }
 
     @Override

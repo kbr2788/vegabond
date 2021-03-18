@@ -7,70 +7,39 @@
     tools:context=".login.SignupActivity">
 
     <Button
-        android:id="@+id/btn_signup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="88dp"
-        android:text="SIGNUP"
-        app:layout_constraintStart_toStartOf="@+id/cb_f"
-        app:layout_constraintTop_toBottomOf="@+id/et_birth" />
-
-    <Button
         android:id="@+id/btn_id_check"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="19dp"
         android:text="중복확인"
-        app:layout_constraintBaseline_toBaselineOf="@+id/ed_id"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_id"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/ed_id" />
+        app:layout_constraintStart_toEndOf="@+id/et_id" />
 
-    <CheckBox
-        android:id="@+id/cb_m"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="138dp"
-        android:layout_marginBottom="65dp"
-        android:text="남자"
-        app:layout_constraintBottom_toBottomOf="@+id/btn_signup"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cb_f"
-        app:layout_constraintTop_toTopOf="@+id/textView5" />
-
-    <CheckBox
-        android:id="@+id/cb_f"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginEnd="29dp"
-        android:text="여자"
-        app:layout_constraintBottom_toBottomOf="@+id/cb_m"
-        app:layout_constraintEnd_toStartOf="@+id/cb_m"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
-        app:layout_constraintTop_toTopOf="@+id/cb_m" />
 
     <EditText
-        android:id="@+id/ed_pwd"
+        android:id="@+id/et_pwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="30dp"
-        android:autofillHints=""
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_id" />
+        app:layout_constraintTop_toBottomOf="@+id/et_id" />
 
     <EditText
-        android:id="@+id/ed_id"
+        android:id="@+id/et_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="107dp"
-        android:autofillHints=""
+        android:layout_marginTop="84dp"
         android:ems="10"
+        android:hint="이메일"
         android:inputType="textEmailAddress"
+        android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/btn_id_check"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -80,21 +49,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="checkPassword"
+        android:textAlignment="center"
         android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ed_pwd" />
+        app:layout_constraintTop_toBottomOf="@+id/et_pwd" />
+
 
     <EditText
         android:id="@+id/et_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="이름"
+        android:hint="이름"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_pwd_check" />
 
@@ -103,61 +76,70 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="생년월일 (ex.20210101)"
         android:inputType="date"
-        app:layout_constraintBaseline_toBaselineOf="@+id/textView5"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="37dp"
-        android:text="성별"
-        app:layout_constraintBottom_toBottomOf="@+id/cb_f"
-        app:layout_constraintEnd_toStartOf="@+id/cb_f"
+        android:textAlignment="center"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cb_f" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:text="Password"
-        app:layout_constraintEnd_toEndOf="@+id/ed_pwd"
-        app:layout_constraintStart_toStartOf="@+id/ed_pwd"
-        app:layout_constraintTop_toTopOf="@+id/ed_pwd" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="87dp"
-        android:layout_marginEnd="87dp"
-        android:text="checkPassword"
-        app:layout_constraintBaseline_toBaselineOf="@+id/et_pwd_check"
-        app:layout_constraintEnd_toStartOf="@+id/btn_id_check"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="31dp"
-        android:text="생년월일 (ex.20210101)"
-        app:layout_constraintEnd_toEndOf="@+id/et_birth"
         app:layout_constraintTop_toBottomOf="@+id/et_name" />
 
-    <TextView
-        android:id="@+id/textView2"
+
+    <CheckBox
+        android:id="@+id/cb_p"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="68dp"
-        android:text="User ID"
-        app:layout_constraintBaseline_toBaselineOf="@+id/ed_id"
-        app:layout_constraintStart_toStartOf="@+id/ed_id" />
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="개인정보어쩌구저쩌구"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_radio" />
+
+    <TextView
+        android:id="@+id/tv_radio"
+        android:layout_width="46dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:text="성별"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_birth" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="@+id/tv_radio"
+        app:layout_constraintTop_toBottomOf="@+id/et_birth">
+
+
+        <RadioButton
+            android:id="@+id/rb_m"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="남자" />
+
+        <RadioButton
+            android:id="@+id/rb_f"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:text="여자" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="SIGNUP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cb_p" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

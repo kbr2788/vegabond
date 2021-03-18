@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,7 +13,6 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
-import com.example.project.MainActivity;
 import com.example.project.R;
 import com.example.project.SurveyActivity;
 
@@ -47,26 +47,27 @@ public class LoginActivity extends AppCompatActivity {
         btn_login.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                String user_id = et_id.getText().toString();
-                String user_pwd = et_pwd.getText().toString();
+                String id = et_id.getText().toString();
+                String password = et_pwd.getText().toString();
 
-                Response.Listener<String> responseListner = new Response.Listener<String>() {
+                Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         try {
-                            JSONObject jsonObject = new JSONObject(response);
+                            JSONObject jsonObject = new JSONObject( response );
                             boolean success = jsonObject.getBoolean("success");
-                            if(success){
-                                String user_id = jsonObject.getString("id");
-                                String user_pwd = jsonObject.getString("password");
 
-                                Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_SHORT).show();
+                            if(success){
+                                String id = jsonObject.getString("id");
+                                String password = jsonObject.getString("password");
+
+                                Toast.makeText(getApplicationContext(),"로그인에 성공하셨습니다.",Toast.LENGTH_SHORT).show();
                                 Intent intent = new Intent(LoginActivity.this, SurveyActivity.class);
-                                intent.putExtra("user_id", user_id);
-                                intent.putExtra("user_pwd", user_pwd);
+                                intent.putExtra("id", id);
+                                intent.putExtra("password", password);
                                 startActivity(intent);
                             }else{
-                                Toast.makeText(getApplicationContext(),"-------fail-------",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(),"로그인에 실패하였습니다.",Toast.LENGTH_SHORT).show();
                                 return;
                             }
                         }catch(JSONException e){
@@ -74,7 +75,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                     }
                 };
-                LoginRequest loginRequest = new LoginRequest(user_id, user_pwd, responseListner);
+                LoginRequest loginRequest = new LoginRequest(id, password, responseListener);
                 RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
                 queue.add(loginRequest);
             }
