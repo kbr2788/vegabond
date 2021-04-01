@@ -19,8 +19,6 @@ public class FragmentPage1 extends Fragment {
         setHasOptionsMenu(true);
         return inflater.inflate(R.layout.fragment_page_1, container, false);
 
-
-
     }
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {

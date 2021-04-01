@@ -2,7 +2,4 @@
 <network-security-config>
     <!--Set application-wide security config using base-config tag.-->
     <base-config cleartextTrafficPermitted="true"/>
-        <trust-anchors>
-            <certificates src="system" />
-        </trust-anchors>
 </network-security-config>
