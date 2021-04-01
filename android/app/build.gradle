@@ -40,4 +40,7 @@ dependencies {
 
     implementation "androidx.recyclerview:recyclerview:1.1.0"
 
+    //카카오맵
+    implementation files('libs/libDaumMapAndroid.jar')
+
 }
