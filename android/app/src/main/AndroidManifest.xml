@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.project">
 
+    <uses-feature android:name="android.hardware.type.watch" /> <!-- 카카오맵 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,28 +15,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".map"></activity>
-        <activity android:name=".SurveyActivity"></activity>
+        <activity android:name=".PlaceActivity"></activity>
+        <activity android:name=".map" />
+        <activity android:name=".SurveyActivity" />
         <activity android:name=".login.SignupActivity" />
         <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <action android:name="android.intent.action.SEARCH" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity> <!-- 카카오맵 -->
+        <activity android:name=".MainActivity" /> <!-- 카카오맵 -->
         <meta-data
             android:name="com.kakao.sdk.AppKey"
             android:value="6232b93af20e0073f96f85136e80fdb0" />
     </application>
-
-    <uses-feature android:name="android.hardware.type.watch" /> <!-- 카카오맵 -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 </manifest>

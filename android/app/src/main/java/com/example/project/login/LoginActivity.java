@@ -13,6 +13,8 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
+import com.example.project.PlaceActivity;
+import com.example.project.PlaceRequest;
 import com.example.project.R;
 import com.example.project.SurveyActivity;
 
@@ -22,7 +24,7 @@ import org.json.JSONObject;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText et_id, et_pwd;
-    private Button btn_login,btn_signup, btn_skip;
+    private Button btn_login,btn_signup, btn_skip, btn_goto_place;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class LoginActivity extends AppCompatActivity {
         btn_login = findViewById(R.id.btn_login);
         btn_signup = findViewById(R.id.btn_signup);
         btn_skip = findViewById(R.id.btn_skip);
+        btn_goto_place =findViewById(R.id.btn_goto_p);
 
         //SignUp 버튼 -> 해당 화면으로 이동
         btn_signup.setOnClickListener(new View.OnClickListener(){
@@ -41,6 +44,42 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view){
                 Intent Intent = new Intent(LoginActivity.this, SignupActivity.class);
                 startActivity(Intent);
+            }
+        });
+
+        btn_goto_place.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent Intent = new Intent(LoginActivity.this, PlaceActivity.class);
+                startActivity(Intent);
+                String autocamp_name= "기러기 공원";
+                Response.Listener<String> responseListener = new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject jsonObject = new JSONObject(response);
+
+                            boolean success = jsonObject.getBoolean("success");
+                            if(success){
+                                String autocamp_name = jsonObject.getString("autocamp_name");
+                                Intent intent = new Intent(LoginActivity.this, PlaceActivity.class);
+                                intent.putExtra("autocamp_name",autocamp_name);
+                                intent.putExtra("autocamp_location", jsonObject.getString("autocamp_location"));
+                                intent.putExtra("autocamp_address",jsonObject.getString("autocamp_address"));
+                                intent.putExtra("autocamp_img",jsonObject.getString("autocamp_img"));
+                                intent.putExtra("autocamp_view",jsonObject.getString("autocamp_view"));
+                                intent.putExtra("tag",jsonObject.getString("tag"));
+                                intent.putExtra("subname",jsonObject.getString("subname"));
+                                startActivity(intent);
+                            }else return;
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                };
+                PlaceRequest placeRequest = new PlaceRequest(autocamp_name, responseListener);
+                RequestQueue queue = Volley.newRequestQueue(LoginActivity.this);
+                queue.add(placeRequest);
             }
         });
 
