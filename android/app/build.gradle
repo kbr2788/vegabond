@@ -19,8 +19,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    dataBinding {
-        enabled = true
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    buildFeatures{
+        dataBinding = true
+    }
+
+    task wrapper(type: Wrapper) {
+        gradleVersion = '1.0'
     }
 
 
@@ -45,3 +54,5 @@ dependencies {
     implementation files('libs/libDaumMapAndroid.jar')
 
 }
+
+tasks.register("prepareKotlinBuildScriptModel"){}
