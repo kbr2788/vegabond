@@ -14,10 +14,6 @@ import net.daum.mf.map.api.MapView;
 
 public class map extends AppCompatActivity {
 
-    private FragmentPage2 frgp;
-    private Button btnKangwon;
-    private Button btnSudogwon;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

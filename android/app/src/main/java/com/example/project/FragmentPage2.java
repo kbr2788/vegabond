@@ -15,14 +15,14 @@ public class FragmentPage2 extends Fragment {
 
     public Button btnKangwon;
     public Button btnSudogwon;
-    public Button btnChungnam;
+    /*public Button btnChungnam;
     private Button btnChungbuk;
     private Button btnGyeongbuk;
     private Button btnGyeongnam;
     private Button btnJeonbuk;
     private Button btnJeonnam;
     private Button btnJeju;
-    private Button btnDokdo;
+    private Button btnDokdo;*/
 
     @Nullable
     @Override
