@@ -7,7 +7,7 @@ import com.android.volley.toolbox.StringRequest;
 import java.util.HashMap;
 import java.util.Map;
 public class PlaceRequest extends StringRequest{
-    final static private String URL = "http://holyaloe.dothome.co.kr/place.php";
+    final static private String URL = "http://holycrab.dothome.co.kr/place.php";
     private Map<String, String> map;
 
     public PlaceRequest(String autocamp_name, Response.Listener<String> listener) {

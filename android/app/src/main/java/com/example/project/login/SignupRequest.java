@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class SignupRequest extends  StringRequest{
 
-    final static private String URL = "http://holyaloe.dothome.co.kr/register.php";
+    final static private String URL = "http://holycrab.dothome.co.kr/register.php";
     private Map<String, String> map;
 
     public SignupRequest(String id, String password, String user_name, String birthday, String gender, Response.Listener<String> listener) {

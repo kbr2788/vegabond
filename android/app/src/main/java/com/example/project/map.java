@@ -27,5 +27,9 @@ public class map extends AppCompatActivity {
         mapView.setZoomLevel(10, true);
         mapViewContainer.addView(mapView);
     }
+<<<<<<< Updated upstream
 
 }
+=======
+} 
+>>>>>>> Stashed changes

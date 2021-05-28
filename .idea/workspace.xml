@@ -10,13 +10,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db6d724c-9cbc-4147-80ab-3c3678d92be1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/ValidateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project/SurveyActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project/SurveyActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/SignupActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/SignupActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/project/login/SignupRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/RivewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/layout/activity_rivew.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/PlaceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/PlaceActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/PlaceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/PlaceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/SignupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/SignupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/ValidateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/example/project/login/ValidateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/layout/activity_place.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/layout/activity_place.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +154,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1772" y="224" key="#PSD" timestamp="1610843799296">
-      <screen x="-1920" y="25" width="1920" height="991" />
+    <state x="157" y="252" key="#PSD" timestamp="1622018231764">
+      <screen x="0" y="25" width="1680" height="952" />
     </state>
-    <state x="-1772" y="224" key="#PSD/-1920.25.1920.991/0.25.1680.1025@-1920.25.1920.991" timestamp="1610843799296" />
-    <state x="-1401" y="208" key="#com.intellij.ide.util.MemberChooser" timestamp="1610844948633">
-      <screen x="-1920" y="25" width="1920" height="991" />
-    </state>
-    <state x="-1401" y="208" key="#com.intellij.ide.util.MemberChooser/-1920.25.1920.991/0.25.1680.1025@-1920.25.1920.991" timestamp="1610844948633" />
+    <state x="157" y="252" key="#PSD/-1920.25.1920.1055/0.25.1680.952@0.25.1680.952" timestamp="1622018231764" />
     <state x="157" y="168" width="770" height="721" key="AVDManager" timestamp="1614864054106">
       <screen x="0" y="25" width="1920" height="991" />
     </state>
@@ -163,17 +166,11 @@
     <state x="151" y="241" key="AndroidCreateResourceDirectoryDialog" timestamp="1614838739230">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
-    <state x="-1747" y="248" key="AndroidCreateResourceDirectoryDialog/-1920.25.1920.991/0.25.1680.1025@-1920.25.1920.991" timestamp="1610842093416" />
     <state x="151" y="241" key="AndroidCreateResourceDirectoryDialog/0.25.1680.961@0.25.1680.961" timestamp="1614838739230" />
     <state x="151" y="241" key="AndroidCreateResourceFileDialog" timestamp="1614838763956">
       <screen x="0" y="25" width="1680" height="961" />
     </state>
-    <state x="-1747" y="248" key="AndroidCreateResourceFileDialog/-1920.25.1920.991/0.25.1680.1025@-1920.25.1920.991" timestamp="1610842113848" />
     <state x="151" y="241" key="AndroidCreateResourceFileDialog/0.25.1680.961@0.25.1680.961" timestamp="1614838763956" />
-    <state x="-1258" y="271" key="AndroidCreateXmlResourceDialog" timestamp="1610842493425">
-      <screen x="-1920" y="25" width="1920" height="991" />
-    </state>
-    <state x="-1258" y="271" key="AndroidCreateXmlResourceDialog/-1920.25.1920.991/0.25.1680.1025@-1920.25.1920.991" timestamp="1610842493425" />
     <state width="916" height="201" key="GridCell.Tab.0.bottom" timestamp="1614841293679">
       <screen x="0" y="25" width="1680" height="961" />
     </state>

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.project">
 
-    <uses-feature android:name="android.hardware.type.watch" /> <!-- 카카오맵 -->
+<!--    <uses-feature android:name="android.hardware.type.watch" /> &lt;!&ndash; 카카오맵 &ndash;&gt;-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -14,8 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true">
-        <activity android:name=".PlaceActivity"></activity>
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        >
+        <activity android:name=".RivewActivity"></activity>
+        <activity android:name=".PlaceActivity" />
         <activity android:name=".map" />
         <activity android:name=".SurveyActivity" />
         <activity android:name=".login.SignupActivity" />
@@ -30,7 +33,7 @@
         <activity android:name=".MainActivity" /> <!-- 카카오맵 -->
         <meta-data
             android:name="com.kakao.sdk.AppKey"
-            android:value="6232b93af20e0073f96f85136e80fdb0" />
+            android:value="d52b9640568c331be988bc389de518a7" />
     </application>
 
 </manifest>

@@ -3,7 +3,11 @@ package com.example.project.login;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +25,9 @@ import com.example.project.SurveyActivity;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 public class LoginActivity extends AppCompatActivity {
 
     private EditText et_id, et_pwd;
@@ -28,6 +35,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+//        getHashKey();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -50,8 +58,8 @@ public class LoginActivity extends AppCompatActivity {
         btn_goto_place.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent Intent = new Intent(LoginActivity.this, PlaceActivity.class);
-                startActivity(Intent);
+//                Intent Intent = new Intent(LoginActivity.this, PlaceActivity.class);
+//                startActivity(Intent);
                 String autocamp_name= "기러기 공원";
                 Response.Listener<String> responseListener = new Response.Listener<String>(){
                     @Override
@@ -66,12 +74,15 @@ public class LoginActivity extends AppCompatActivity {
                                 intent.putExtra("autocamp_name",autocamp_name);
                                 intent.putExtra("autocamp_location", jsonObject.getString("autocamp_location"));
                                 intent.putExtra("autocamp_address",jsonObject.getString("autocamp_address"));
+                                intent.putExtra("autocamp_add_info", jsonObject.getString("autocamp_add_info"));
                                 intent.putExtra("autocamp_img",jsonObject.getString("autocamp_img"));
                                 intent.putExtra("autocamp_view",jsonObject.getString("autocamp_view"));
                                 intent.putExtra("tag",jsonObject.getString("tag"));
                                 intent.putExtra("subname",jsonObject.getString("subname"));
                                 startActivity(intent);
-                            }else return;
+                            }else {
+                                return;
+                            }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -130,5 +141,25 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+    }
+    private void getHashKey(){
+        PackageInfo packageInfo = null;
+        try {
+            packageInfo = getPackageManager().getPackageInfo(getPackageName(), PackageManager.GET_SIGNATURES);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (packageInfo == null)
+            Log.e("KeyHash::::", "KeyHash:null");
+
+        for (Signature signature : packageInfo.signatures) {
+            try {
+                MessageDigest md = MessageDigest.getInstance("SHA");
+                md.update(signature.toByteArray());
+                Log.d("KeyHash::::", Base64.encodeToString(md.digest(), Base64.DEFAULT));
+            } catch (NoSuchAlgorithmException e) {
+                Log.e("KeyHash::::", "Unable to get MessageDigest. signature=" + signature, e);
+            }
+        }
     }
 }

@@ -47,12 +47,10 @@ public class MainActivity extends AppCompatActivity {
                 fragment = new FragmentPage1();
 
             } else if (id == R.id.navigation_2){
-
                 fragment = new FragmentPage2();
             }else {
                 fragment = new FragmentPage3();
             }
-
             fragmentTransaction.add(R.id.content_layout, fragment, tag);
         } else {
             fragmentTransaction.show(fragment);
