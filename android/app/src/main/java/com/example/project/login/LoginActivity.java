@@ -54,8 +54,8 @@ public class LoginActivity extends AppCompatActivity {
         et_pwd = findViewById(R.id.et_pwd);
         btn_login = findViewById(R.id.btn_login);
         btn_signup = findViewById(R.id.btn_signup);
-        btn_skip = findViewById(R.id.btn_skip);
-        btn_goto_place =findViewById(R.id.btn_goto_p);
+//        btn_skip = findViewById(R.id.btn_skip);
+//        btn_goto_place =findViewById(R.id.btn_goto_p);
 
         //SignUp 버튼 -> 해당 화면으로 이동
         btn_signup.setOnClickListener(new View.OnClickListener(){
