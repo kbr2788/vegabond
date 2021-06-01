@@ -4,6 +4,7 @@ import androidx.annotation.IdRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -18,7 +19,9 @@ import android.widget.Toast;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.Volley;
+import com.example.project.DetailActivity;
 import com.example.project.R;
+import com.example.project.SurveyActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,9 +31,8 @@ public class SignupActivity extends AppCompatActivity {
     private RadioGroup rg;
     private Button btn_signup, btn_id_check;
     private String gender="";
-    private boolean validate = false, ch_p_b=false;
+    private boolean validate = false;
     private AlertDialog dialog;
-    private CheckBox cb_p;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,18 +44,9 @@ public class SignupActivity extends AppCompatActivity {
         et_name = findViewById(R.id.et_name);
         et_birth = findViewById(R.id.et_birth);
         et_pwd_check = findViewById(R.id.et_pwd_check);
-        cb_p = findViewById(R.id.cb_p);
         rg = findViewById(R.id.rg);
 
-        cb_p.setOnClickListener(new CheckBox.OnClickListener(){
 
-            @Override
-            public void onClick(View v) {
-                if(cb_p.isChecked()){
-                    ch_p_b = true;
-                }else ch_p_b = false;
-            }
-        });
         rg.setOnCheckedChangeListener(radioGroupButtonChangeListener);
 
         btn_id_check = findViewById(R.id.btn_id_check);
@@ -119,7 +112,7 @@ public class SignupActivity extends AppCompatActivity {
                     dialog.show();
                     return;
                 }
-                if (id.equals("") || password.equals("") || user_name.equals("")||birthday.equals("")|| gender=="" || ch_p_b== false) {//날짜판별함수
+                if (id.equals("") || password.equals("") || user_name.equals("")||birthday.equals("")|| gender=="" ) {//날짜판별함수
                     AlertDialog.Builder builder = new AlertDialog.Builder(SignupActivity.this);
                     dialog = builder.setMessage("모두 입력해주세요.").setNegativeButton("확인", null).create();
                     dialog.show();
@@ -133,11 +126,13 @@ public class SignupActivity extends AppCompatActivity {
                             Log.d("JSONMY-----",response);
 
                             JSONObject jsonObject = new JSONObject(response);
+
                             boolean success = jsonObject.getBoolean("success");
                             if(password.equals(password_c)){
                                 if(success){
                                     Toast.makeText(getApplicationContext(),"success",Toast.LENGTH_SHORT).show();
-                                    Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
+                                    Intent intent = new Intent(SignupActivity.this, DetailActivity.class);
+                                    intent.putExtra("user_id",jsonObject.getString("user_id"));
                                     startActivity(intent);
                                 }else{
                                     Toast.makeText(getApplicationContext(),"fail",Toast.LENGTH_SHORT).show();

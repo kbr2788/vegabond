@@ -20,6 +20,10 @@ import androidx.fragment.app.Fragment;
 
 public class FragmentPage3 extends Fragment {
 
+    public static FragmentPage3 newInstance(){
+        return new FragmentPage3();
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

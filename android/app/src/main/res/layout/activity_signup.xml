@@ -37,7 +37,7 @@
         android:layout_marginStart="1dp"
         android:layout_marginTop="84dp"
         android:ems="10"
-        android:hint="이메일"
+        android:hint="ID"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
         app:layout_constraintEnd_toStartOf="@+id/btn_id_check"
@@ -85,16 +85,6 @@
         app:layout_constraintTop_toBottomOf="@+id/et_name" />
 
 
-    <CheckBox
-        android:id="@+id/cb_p"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="20dp"
-        android:text="개인정보어쩌구저쩌구"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_radio" />
-
     <TextView
         android:id="@+id/tv_radio"
         android:layout_width="46dp"
@@ -135,11 +125,11 @@
         android:id="@+id/btn_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="68dp"
         android:text="SIGNUP"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cb_p" />
+        app:layout_constraintTop_toBottomOf="@+id/rg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

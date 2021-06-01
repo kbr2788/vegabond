@@ -20,275 +20,440 @@
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="150dp">
 
                 <LinearLayout
                     android:id="@+id/linearLayout2"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="150dp"
                     android:layout_marginBottom="10dp"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:id="@+id/iv_campimg1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hanyang" />
 
                     <ImageView
                         android:id="@+id/iv_campimg2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/hanyang" />
 
                     <ImageView
                         android:id="@+id/iv_campimg3"
-                        android:layout_width="135dp"
-                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
                         android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/hanyang" />
 
                     <ImageView
                         android:id="@+id/iv_campimg4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_weight="0"
+                        android:scaleType="fitCenter"
+
+                        android:src="@drawable/hanyang" />
                 </LinearLayout>
             </HorizontalScrollView>
 
             <LinearLayout
+                android:id="@+id/linearLayout3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:id="@+id/linearLayout3"
-                    android:layout_width="271dp"
-                    android:layout_height="164dp"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/tv_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="차박지 이름"
-                        android:textSize="30sp" />
-
-                    <TextView
-                        android:id="@+id/tv_address"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="주소시 주소구 주소동 주소-주소"
-                        android:textSize="18sp" />
-
-                    <TextView
-                        android:id="@+id/tv_info"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="상세정보" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/linearLayout4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/ib_weather"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/tv_weather"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
-                        android:text="온도 : 20℃ \n 미세먼지 39㎍/㎥ 보통 " />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="164dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/tv_cource"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="코스"
+                    android:text="차박지 이름"
+                    android:textColor="#000000"
                     android:textSize="30sp" />
 
-                <Button
-                    android:id="@+id/btn_co"
-                    android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:text="더보기" />
+                    android:text="주소시 주소구 주소동 주소-주소"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="상세정보" />
             </LinearLayout>
 
+
+<!--            <LinearLayout-->
+<!--                android:id="@+id/linearLayout4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <ImageButton-->
+<!--                    android:id="@+id/ib_weather"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    tools:srcCompat="@tools:sample/avatars" />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_weather"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:gravity="center_horizontal"-->
+<!--                    android:text="온도 : 20℃ \n 미세먼지 39㎍/㎥ 보통 " />-->
+<!--            </LinearLayout>-->
+
             <LinearLayout
-                android:id="@+id/linearLayout5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/ib_co1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/tv_co1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="코스1" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/ib_co2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/tv_co2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="코스2" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:orientation="vertical">
-
-                    <ImageButton
-                        android:id="@+id/ib_co3"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        tools:srcCompat="@tools:sample/avatars" />
-
-                    <TextView
-                        android:id="@+id/tv_co3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:gravity="center_horizontal"
-                        android:text="코스3" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/linearLayout6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/tv_review"
-                    android:layout_width="wrap_content"
+                    android:layout_width="69dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:layout_weight="1"
                     android:text="리뷰"
                     android:textSize="30sp" />
 
-                <RatingBar
-                    android:id="@+id/ratingBar"
+                <Button
+                    android:id="@+id/btn_review_write"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+                    android:text="리뷰쓰기"
+                    android:textSize="20sp" />
 
                 <Button
-                    android:id="@+id/btn_rev"
+                    android:id="@+id/btn_review_more"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_weight="1"
-                    android:text="더보기" />
-
+                    android:text="리뷰 더보기"
+                    android:textSize="20sp"/>
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/linearLayout8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:orientation="horizontal">
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:id="@+id/lL_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="아직 리뷰가 없습니다."
+                    android:textSize="20sp" />
+                </LinearLayout>
 
                 <LinearLayout
-                    android:id="@+id/linearLayout7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:id="@+id/lL_review1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/tv_review_tit"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:textSize="24sp" />
+                    <LinearLayout
+                        android:layout_width="294dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_review_tit1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="19dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="user_name"
+                            android:textSize="20sp" />
+
+                        <RatingBar
+                            android:id="@+id/rB1"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
 
                     <TextView
-                        android:id="@+id/tv_review_write"
+                        android:id="@+id/tv_review_con1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView"
-                        android:textSize="18sp" />
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="리뷰내용" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lL_review2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_review_tit2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="user_name"
+                            android:textSize="24sp"
+                            android:layout_marginLeft="10dp"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"/>
+
+                        <RatingBar
+                            android:id="@+id/rB2"
+                            android:layout_width="wrap_content"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_review_con2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="리뷰내용" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lL_review3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_review_tit3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="user_name"
+                            android:textSize="24sp"
+                            android:layout_marginLeft="10dp"
+
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"/>
+
+                        <RatingBar
+                            android:id="@+id/rB3"
+                            android:layout_width="wrap_content"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_review_con3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="리뷰내용" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lL_review4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_review_tit4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+
+                            android:text="user_name"
+                            android:textSize="24sp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="30dp"/>
+
+                        <RatingBar
+                            android:id="@+id/rB4"
+                            android:layout_width="wrap_content"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_review_con4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="15dp"
+                        android:text="리뷰내용" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lL_sns"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+
+                        android:text="SNS_REVIEW"
+                        android:textSize="24sp" />
+
+
+                    <LinearLayout
+                        android:id="@+id/lL_sns1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_sns1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="87.65%\n긍정" />
+
+                        <TextView
+                            android:id="@+id/tv_sns_con1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:layout_marginLeft="5dp"
+
+                            android:text="리뷰내용" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lL_sns2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_weight="0"
+
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_sns2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="87.65%\n긍정" />
+
+                        <TextView
+                            android:id="@+id/tv_sns_con2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:layout_marginLeft="5dp"
+
+                            android:text="리뷰내용" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lL_sns3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_weight="0"
+
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_sns3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="87.65%\n긍정" />
+
+                        <TextView
+                            android:id="@+id/tv_sns_con3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:layout_marginLeft="5dp"
+
+                            android:text="리뷰내용" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/lL_sns4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_sns4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="87.65%\n긍정" />
+
+                        <TextView
+                            android:id="@+id/tv_sns_con4"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="7"
+                            android:layout_marginLeft="5dp"
+
+                            android:text="리뷰내용" />
+                    </LinearLayout>
 
                 </LinearLayout>
 
-                <RatingBar
-                    android:id="@+id/ratingBar2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
+
 
             </LinearLayout>
-
-            <TextView
-                android:id="@+id/tv_review_con"
-                android:layout_width="430dp"
-                android:layout_height="60dp"
-                android:layout_marginTop="5dp"
-                android:text="TextView" />
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

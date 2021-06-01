@@ -1,0 +1,1444 @@
+{
+  "autocamp": [
+    {
+      "autocamp_id": "1",
+      "autocamp_name": "삼탄유원지 다리밑",
+      "autocamp_location": "37.0687419,128.0295999",
+      "tag": "1, 5, 6, 8, 14, 9, 12, 13, 3",
+      "subname": "삼탄유원지",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "2",
+      "autocamp_name": "기러기 공원",
+      "autocamp_location": "36.1161964,127.59157139999999",
+      "tag": "1, 3, 14, 8, 16, 7, 9, 10",
+      "subname": "  ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "3",
+      "autocamp_name": "압록유원지",
+      "autocamp_location": "35.1927726,127.37710619999999",
+      "tag": "9, 6, 1, 8, 14, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "4",
+      "autocamp_name": "앵두공원",
+      "autocamp_location": "35.111872600000005,126.6120131",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "5",
+      "autocamp_name": "솔밭유원지 주차장 인근",
+      "autocamp_location": "35.0186177,126.8552154",
+      "tag": "1, 17, 7, 8, 13, 14, 9, 10",
+      "subname": "드들강 솔밭유원지, 드들강 주차장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "6",
+      "autocamp_name": "약산 가사동백숲 방파제",
+      "autocamp_location": "34.3713009,126.92874619999999",
+      "tag": "9, 10, 8, 16, 2, 15, 5, 7",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "7",
+      "autocamp_name": "노루벌 야영장",
+      "autocamp_location": "36.279216399999996,127.3341648",
+      "tag": "1, 14, 5, 8, 9, 11, 12, 20",
+      "subname": "노루벌 캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "8",
+      "autocamp_name": "정선 미락숲",
+      "autocamp_location": "37.4712949,128.8443685",
+      "tag": "15, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "9",
+      "autocamp_name": "지수리 금강변",
+      "autocamp_location": "36.322638,127.6752617",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "10",
+      "autocamp_name": "녹동 소록대교 밑",
+      "autocamp_location": "34.5267361,127.12278569999998",
+      "tag": "2, 5, 14, 9, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "11",
+      "autocamp_name": "마곡유원지",
+      "autocamp_location": "37.7251408,127.58556440000001",
+      "tag": "1, 14, 9, 13, 19, 8, 20",
+      "subname": "마곡유원지 캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "12",
+      "autocamp_name": "수주팔봉 강변",
+      "autocamp_location": "36.9022161,127.91967489999999",
+      "tag": "1, 14, 8, 20, 7, 5, 9, 11",
+      "subname": "수주팔봉야영지",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "13",
+      "autocamp_name": "상보안 유원지 일대",
+      "autocamp_location": "36.272921,127.343761",
+      "tag": "1, 14, 5, 9, 12, 8",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "14",
+      "autocamp_name": "이포보 오토캠핑장 인근 강변",
+      "autocamp_location": "37.3843192,127.5585455",
+      "tag": "14, 18, 1, 17, 8, 7, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "15",
+      "autocamp_name": "내지리 섬강 노지",
+      "autocamp_location": "37.5129691,127.9968022",
+      "tag": "1, 14",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "16",
+      "autocamp_name": "옥천 야영장 부근 금강변",
+      "autocamp_location": "36.2591743,127.6419703",
+      "tag": "1, 14, 20, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "17",
+      "autocamp_name": "홍천강변",
+      "autocamp_location": "37.7033905,127.60259909999999",
+      "tag": "1, 20, 10, 14, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "18",
+      "autocamp_name": "홍천강 한덕교",
+      "autocamp_location": "37.675533,127.6113769",
+      "tag": "1, 3, 14, 8, 5, 16, 9, 11, 20",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "19",
+      "autocamp_name": "임고 강변공원",
+      "autocamp_location": "36.0463368,128.99198239999998",
+      "tag": "17, 7, 16, 8, 9, 10, 1, 18, 13",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "20",
+      "autocamp_name": "강진천변생태호수공원",
+      "autocamp_location": "34.639178699999995,126.75037499999999",
+      "tag": "4, 17, 7, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "21",
+      "autocamp_name": "가선리 금강변 다리 밑",
+      "autocamp_location": "36.1282145,127.6209828",
+      "tag": "1, 3, 14, 11, 12, 20, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "22",
+      "autocamp_name": "수통리 금강변",
+      "autocamp_location": "36.0648562,127.5976819",
+      "tag": "1,",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "23",
+      "autocamp_name": "의성 빙계 야영장",
+      "autocamp_location": "36.2341781,128.77845109999998",
+      "tag": "14, 18, 3, 16, 8, 9, 11",
+      "subname": "빙계얼음골야영장, 빙계야영장, 빙계계곡오토캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "24",
+      "autocamp_name": "지석천 낚시 캠핑",
+      "autocamp_location": "35.012365599999995,126.8596721",
+      "tag": "5, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "25",
+      "autocamp_name": "시금리 초강천변",
+      "autocamp_location": "36.2346454,127.79117369999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "26",
+      "autocamp_name": "치산관광지캠핑장 ",
+      "autocamp_location": "36.048614199999996,128.7133067",
+      "tag": "3, 14, 18, 8, 9, 10, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "27",
+      "autocamp_name": "까치내 유원지 강변",
+      "autocamp_location": "36.3928801,126.8602688",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "28",
+      "autocamp_name": "무안 조금나루 유원지",
+      "autocamp_location": "34.9953463,126.33562400000001",
+      "tag": "2, 14, 7, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "29",
+      "autocamp_name": "하동 구재봉 활공장",
+      "autocamp_location": "35.1296731,127.7177858",
+      "tag": "3, 14, 9, 11, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "30",
+      "autocamp_name": "철원 문혜리 ",
+      "autocamp_location": "38.1069751,127.33772429999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "31",
+      "autocamp_name": "동검도 선착장 옆",
+      "autocamp_location": "37.5816127,126.51628219999999",
+      "tag": "2, 5, 7, 8, 10, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "32",
+      "autocamp_name": "금사면 남한강변",
+      "autocamp_location": "37.4346872,127.5185654",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "33",
+      "autocamp_name": "연천 임진강 주상절리",
+      "autocamp_location": "38.0191101,127.01635319999998",
+      "tag": "1, 14, 8, 9, 20",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "34",
+      "autocamp_name": "강진 사초해변공원",
+      "autocamp_location": "34.6211012,126.7744546",
+      "tag": "17, 18, 7, 8, 9, 13",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "35",
+      "autocamp_name": "소선암 자연발생 유원지 야영장",
+      "autocamp_location": "36.9191313,128.3086409",
+      "tag": "18, 16, 15, 8, 9, 11, 3",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "36",
+      "autocamp_name": "오천 솔밭유원지 야영장",
+      "autocamp_location": "36.4256333,129.3280545",
+      "tag": "10, 18, 14, 8, 9, 15",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "37",
+      "autocamp_name": "화천 딴산유원지",
+      "autocamp_location": "38.124369699999995,127.76223769999999",
+      "tag": "1, 3, 5, 16, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "38",
+      "autocamp_name": "미천 공원",
+      "autocamp_location": "35.801659,128.1951239",
+      "tag": "15, 7, 8, 17, 9, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "39",
+      "autocamp_name": "유곡천 다목적 캠핑장",
+      "autocamp_location": "35.4436489,128.3510633",
+      "tag": "18, 11, 8, 16, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "40",
+      "autocamp_name": "개야리 홍천강변",
+      "autocamp_location": "37.6889995,127.625052",
+      "tag": "1, 9, 10, 20, 13, 5, 16, 14",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "41",
+      "autocamp_name": "개야리 유원지",
+      "autocamp_location": "37.692755999999996,127.62574",
+      "tag": "1, 14, 5, 16, 20, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "42",
+      "autocamp_name": "송산유원지 주차장",
+      "autocamp_location": "35.159821,126.7360068",
+      "tag": "15, 7, 9, 10, 11",
+      "subname": "송산유원지",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "43",
+      "autocamp_name": "진주 남강변",
+      "autocamp_location": "35.1890244,128.078001",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "44",
+      "autocamp_name": "암새들앞 공용 주차장",
+      "autocamp_location": "35.4853184,128.7799386",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "45",
+      "autocamp_name": "양단유원지",
+      "autocamp_location": "35.513161,128.847242",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "46",
+      "autocamp_name": "산외면 체육공원 주차장",
+      "autocamp_location": "35.5132329,128.8428763",
+      "tag": "8, 1, 14, 9, 11",
+      "subname": "금곡교 밑",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "47",
+      "autocamp_name": "문막읍 섬강변",
+      "autocamp_location": "37.318134,127.80562979999999",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "48",
+      "autocamp_name": "나진피서지",
+      "autocamp_location": "34.7021404,127.6156795",
+      "tag": "1, 14, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "49",
+      "autocamp_name": "한적한 방파제",
+      "autocamp_location": "34.5753011,127.47318949999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "50",
+      "autocamp_name": "백운정 유원지",
+      "autocamp_location": "36.530333899999995,128.85379079999998",
+      "tag": "4, 14, 15, 17, 18, 8, 9",
+      "subname": "안동 백운정유원지 야영장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "51",
+      "autocamp_name": "주전가족 휴양지 캠핑장",
+      "autocamp_location": "35.5514136,129.4548926",
+      "tag": "18, 8, 2, 9, 11",
+      "subname": "주전 가족휴양지캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "52",
+      "autocamp_name": "영광 와탄천변 비밀의 화원",
+      "autocamp_location": "35.3413615,126.4429503",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "53",
+      "autocamp_name": "대창골",
+      "autocamp_location": "36.8756963,127.2711613",
+      "tag": "3, 14, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "54",
+      "autocamp_name": "춘천 수변공원",
+      "autocamp_location": "37.872538299999995,127.69880699999999",
+      "tag": "1, 8, 10, 11, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "55",
+      "autocamp_name": "이가리 간이해변",
+      "autocamp_location": "36.185429899999995,129.3826989",
+      "tag": "2, 15, 7, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "56",
+      "autocamp_name": "하옥계곡 야영장",
+      "autocamp_location": "36.267289399999996,129.2380676",
+      "tag": "3, 14, 9, 12",
+      "subname": "하옥계곡 주차장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "57",
+      "autocamp_name": "위배지미하류",
+      "autocamp_location": "36.267289399999996,129.2380676",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "58",
+      "autocamp_name": "청벽산 물골 유원지",
+      "autocamp_location": "37.79772,128.01111219999999",
+      "tag": "1, 14, 5, 16, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "59",
+      "autocamp_name": "순천 용오름 계곡",
+      "autocamp_location": "35.092117099999996,127.202188",
+      "tag": "4, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "60",
+      "autocamp_name": "풍서천변",
+      "autocamp_location": "36.6878792,127.0781902",
+      "tag": "4,",
+      "subname": "풍서천 주변",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "61",
+      "autocamp_name": "광덕산 간이 캠핑장",
+      "autocamp_location": "36.6979215,127.0930252",
+      "tag": "3, 18, 16, 14, 9, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "62",
+      "autocamp_name": "고성 장신유원지",
+      "autocamp_location": "38.331161699999996,128.3780879",
+      "tag": "4, 14, 18, 16, 8, 9, 10",
+      "subname": "소똥령 마을",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "63",
+      "autocamp_name": "천안 OK캠핑장 주변",
+      "autocamp_location": "36.8205204,127.27551039999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "64",
+      "autocamp_name": "목계솔밭",
+      "autocamp_location": "37.0739833,127.8807381",
+      "tag": "17, 9, 10, 4, 13, 7",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "65",
+      "autocamp_name": "섬강 문막교 주변",
+      "autocamp_location": "37.3074426,127.80886840000001",
+      "tag": "14, 17, 1, 9, 10, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "66",
+      "autocamp_name": "김제 금평저수지",
+      "autocamp_location": "35.7184536,127.01212729999999",
+      "tag": "4, 14, 11, 10 ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용가능, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "67",
+      "autocamp_name": "단월강수욕장 주변",
+      "autocamp_location": "36.94085,127.902537",
+      "tag": "1, 14, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "68",
+      "autocamp_name": "화순 송석정 유원지",
+      "autocamp_location": "34.936602,126.98956589999997",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "69",
+      "autocamp_name": "문경 소야솔밭",
+      "autocamp_location": "36.6917452,128.1179397",
+      "tag": "1, 14, 9, 11, 12, 17, 18",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "70",
+      "autocamp_name": "평창 바위공원",
+      "autocamp_location": "37.375751199999996,128.41103049999998",
+      "tag": "18, 8, 3, 7, 5, 1, 9, 12",
+      "subname": "평창바위 공원캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "71",
+      "autocamp_name": "섬강 유원지 부근",
+      "autocamp_location": "37.4993948,127.98828990000001",
+      "tag": "3, 4, 16, 8, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "72",
+      "autocamp_name": "모곡밤벌 유원지",
+      "autocamp_location": "37.7033905,127.60259909999999",
+      "tag": "1, 3, 14, 18, 5, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "73",
+      "autocamp_name": "홍천강3교 다리 밑",
+      "autocamp_location": "37.712991699999996,127.81809349999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "74",
+      "autocamp_name": "석모도 어류정항",
+      "autocamp_location": "37.64965230000001,126.34297379999998",
+      "tag": "2, 8, 7, 9, 10, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "75",
+      "autocamp_name": "영광 백바위 해변",
+      "autocamp_location": "35.2428319,126.30626199999999",
+      "tag": "2, 7, 8, 9, 12",
+      "subname": "백바위 해수욕장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "76",
+      "autocamp_name": "북한강 야외공연장",
+      "autocamp_location": "37.6465598,127.3655961",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "77",
+      "autocamp_name": "광탄리 유원지",
+      "autocamp_location": "37.5117045,127.63640959999998",
+      "tag": "5, 16, 1, 14, 8, 9, 10, 20",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "78",
+      "autocamp_name": "본포 수변생태공원",
+      "autocamp_location": "35.370204099999995,128.649032",
+      "tag": "1, 14, 8, 9, 13, 7",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "79",
+      "autocamp_name": "필례 약수터",
+      "autocamp_location": "38.072776499999996,128.3709021",
+      "tag": "3, 8, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "80",
+      "autocamp_name": "송악저수지",
+      "autocamp_location": "36.721471199999996,126.98974179999999",
+      "tag": "4, 14, 5, 9, 10",
+      "subname": "송악낚시터, 송악저수지낚시터",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "81",
+      "autocamp_name": "순긋해변",
+      "autocamp_location": "37.8172345,128.8931927",
+      "tag": "2, 13, 8, 7, 9, 11, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "82",
+      "autocamp_name": "광치기 해변",
+      "autocamp_location": "33.452414399999995,126.9246908",
+      "tag": "2, 14, 7, 10, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "83",
+      "autocamp_name": "이포보 노지",
+      "autocamp_location": "37.3843192,127.5585455",
+      "tag": "1, 14, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "84",
+      "autocamp_name": "장성 황룡 전적지",
+      "autocamp_location": "35.288222700000006,126.74924659999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "85",
+      "autocamp_name": "지천 강변",
+      "autocamp_location": "36.3891097,126.8643665",
+      "tag": "1, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "86",
+      "autocamp_name": "천안 은석교 주변",
+      "autocamp_location": "36.7881222,127.26096220000001",
+      "tag": "1, 14, 8, 11, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "87",
+      "autocamp_name": "비내섬",
+      "autocamp_location": "37.1058995,127.8155332",
+      "tag": "1, 14, 9, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "88",
+      "autocamp_name": "단지골 야영장",
+      "autocamp_location": "37.3970924,128.1323812",
+      "tag": "4, 14, 3, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "89",
+      "autocamp_name": "안악해수욕장 솔밭",
+      "autocamp_location": "35.140048199999995,126.3905079",
+      "tag": "2, 7, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "90",
+      "autocamp_name": "원서천변 노지",
+      "autocamp_location": "37.093043699999996,128.060659",
+      "tag": "14, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "91",
+      "autocamp_name": "고마나루 솔밭 공터",
+      "autocamp_location": "36.4661986,127.10334879999999",
+      "tag": " ",
+      "subname": "금강6경 고마나루솔밭",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "92",
+      "autocamp_name": "농소몽돌해변",
+      "autocamp_location": "34.7716667,128.6380556",
+      "tag": "2, 7, 8, 5, 9, 12",
+      "subname": "농소몽돌해수욕장",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "93",
+      "autocamp_name": "장수 덕산제 주변 공터",
+      "autocamp_location": "35.6131902,127.5524852",
+      "tag": "3, 4, 14",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "94",
+      "autocamp_name": "연하계곡",
+      "autocamp_location": "37.1899989,128.56721539999998",
+      "tag": "4, 16, 15, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "95",
+      "autocamp_name": "병지방 오토캠핑장 주변 계곡",
+      "autocamp_location": "37.5986619,128.0613632",
+      "tag": "4, 18, 5, 10, 13, 8",
+      "subname": "병지방오토캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "96",
+      "autocamp_name": "금강2교 차박지A",
+      "autocamp_location": "36.2837579,127.64555179999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "97",
+      "autocamp_name": "남노일 강변유원지",
+      "autocamp_location": "37.675452400000005,127.76075119999997",
+      "tag": "1, 14, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "98",
+      "autocamp_name": "강정 자연발생 유원지A",
+      "autocamp_location": "35.4818425,127.8057987",
+      "tag": " ",
+      "subname": "강정자연발생유원지",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "99",
+      "autocamp_name": "강정 자연발생 유원지B",
+      "autocamp_location": "35.484042599999995,127.80853979999999",
+      "tag": " ",
+      "subname": "강정자연발생유원지",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "100",
+      "autocamp_name": "도장계곡 자연발생유원지",
+      "autocamp_location": "37.6019824,127.39370579999999",
+      "tag": "18, 4, 14, 9, 12",
+      "subname": "도장계곡유원지 \/ 옆에 양평도장리자연발생캠핑장도 있다",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "101",
+      "autocamp_name": "백제보 나루터 주변 금강변",
+      "autocamp_location": "36.3171859,126.9419092",
+      "tag": "1, 14",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "102",
+      "autocamp_name": "함양 남강 물줄기 계곡",
+      "autocamp_location": "35.6279493,127.7374219",
+      "tag": "1, ",
+      "subname": "거연정휴게소",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "103",
+      "autocamp_name": "아랫당숲 캠핑장",
+      "autocamp_location": "37.256623999999995,128.082463",
+      "tag": "16, 8, 3, 4, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "104",
+      "autocamp_name": "추평저수지A",
+      "autocamp_location": "37.1291611,127.936639",
+      "tag": "4, 14, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "105",
+      "autocamp_name": "고병계곡",
+      "autocamp_location": "37.28874020000001,128.7378628",
+      "tag": "4, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "106",
+      "autocamp_name": "거창자연발생유원지 계곡상류A",
+      "autocamp_location": "35.7454684,128.0393068",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "107",
+      "autocamp_name": "거창자연발생유원지 계곡상류B",
+      "autocamp_location": "35.7605462,127.8329371",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "108",
+      "autocamp_name": "봉길해변",
+      "autocamp_location": "35.7297453,129.47053689999998",
+      "tag": "2, 14, 7, 8, 9, 11",
+      "subname": "봉길대왕암해변",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "109",
+      "autocamp_name": "울산 해변수변공원",
+      "autocamp_location": "35.592004599999996,129.37351089999999",
+      "tag": "2, 5, 7, 16, 8, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "110",
+      "autocamp_name": "안성천변",
+      "autocamp_location": "36.9930024,126.9844042",
+      "tag": "1,",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "111",
+      "autocamp_name": "화진해수욕장",
+      "autocamp_location": "36.252932699999995,129.3731942",
+      "tag": "2, 15, 7, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "112",
+      "autocamp_name": "우천 자연발생 유원지",
+      "autocamp_location": "35.036998499999996,128.11929039999998",
+      "tag": "4, 3, 16, 8, 9, 10, 11",
+      "subname": "우천숲",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "113",
+      "autocamp_name": "적봉교 다리밑",
+      "autocamp_location": "37.1004261,127.0402821",
+      "tag": "1, 14, 5, 6, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "114",
+      "autocamp_name": "장등해수욕장 주차장",
+      "autocamp_location": "34.6450187,127.608319",
+      "tag": "2, 14, 7, 9, 12, 8",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "115",
+      "autocamp_name": "지곡사 계곡",
+      "autocamp_location": "35.3875082,127.8771373",
+      "tag": "4, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "116",
+      "autocamp_name": "광품폭포B",
+      "autocamp_location": "36.719585599999995,129.41029319999998",
+      "tag": "4, 14, 20, 16, 9",
+      "subname": "광품폭포",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "117",
+      "autocamp_name": "광품폭포A",
+      "autocamp_location": "36.7206653,129.4072414",
+      "tag": "4, 14, 20, 16, 9",
+      "subname": "광품폭포",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "118",
+      "autocamp_name": "후정해수욕장",
+      "autocamp_location": "37.072001799999995,129.4135547",
+      "tag": "2, 5, 7, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "119",
+      "autocamp_name": "금강변 노지",
+      "autocamp_location": "35.757311099999995,127.53894860000001",
+      "tag": "14, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "120",
+      "autocamp_name": "양평 율리교 밑 강변",
+      "autocamp_location": "37.527512699999996,127.6847358",
+      "tag": "14, 3, 1, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "121",
+      "autocamp_name": "이현동생태습지",
+      "autocamp_location": "36.4192223,127.4714144",
+      "tag": "3, 14, 7, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "122",
+      "autocamp_name": "진안 가막 유원지",
+      "autocamp_location": "35.8068684,127.51668809999998",
+      "tag": "  ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "123",
+      "autocamp_name": "당전저수지 노지",
+      "autocamp_location": "34.5265749,126.8279966",
+      "tag": "3, 4, 14, 17, 8, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "124",
+      "autocamp_name": "안동 천지교 주변",
+      "autocamp_location": "36.4570935,128.8932614",
+      "tag": "  ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "125",
+      "autocamp_name": "담양 오례천변",
+      "autocamp_location": "35.2791953,126.9512782",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "126",
+      "autocamp_name": "매전교 주변",
+      "autocamp_location": "35.673881,128.86631409999998",
+      "tag": "1, 3, 14, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "127",
+      "autocamp_name": "매호유원지",
+      "autocamp_location": "36.8654061,128.90397149999998",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "128",
+      "autocamp_name": "무주 산댐이골",
+      "autocamp_location": "36.0299021,127.6264087",
+      "tag": "4, 14, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "129",
+      "autocamp_name": "부사호",
+      "autocamp_location": "36.1721723,126.52774230000001",
+      "tag": "4, 5, 14, 10, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "130",
+      "autocamp_name": "천안 마도 방파제",
+      "autocamp_location": "36.678906,126.1266598",
+      "tag": "2, 14, 7",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "131",
+      "autocamp_name": "산림청연수원 주차장",
+      "autocamp_location": "35.5919811,126.48969290000001",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "132",
+      "autocamp_name": "장전계곡 상류",
+      "autocamp_location": "37.5009332,128.5597068",
+      "tag": "4, 14, 15, 16, 8, 9, 10",
+      "subname": "장전계곡",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "133",
+      "autocamp_name": "정선 어천 주상절리 (SUV차량만)",
+      "autocamp_location": "37.364037800000006,128.7155775",
+      "tag": "20, ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "134",
+      "autocamp_name": "광암해수욕장 ",
+      "autocamp_location": "35.1025087,128.50070879999998",
+      "tag": "2, 8, 7, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "135",
+      "autocamp_name": "알뜨르비행장 주변 공터",
+      "autocamp_location": "33.2044378,126.27170559999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "136",
+      "autocamp_name": "오류고아라해변",
+      "autocamp_location": "35.807438,129.5015387",
+      "tag": "2, 14, 18, 7, 5, 8, 9, 10, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "137",
+      "autocamp_name": "괴산 외쌍 유원지",
+      "autocamp_location": "36.7773009,127.88851779999997",
+      "tag": "14, 8, 9, 12, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "138",
+      "autocamp_name": "장사해변 졸음쉼터 주변",
+      "autocamp_location": "36.2876569,129.37435729999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "139",
+      "autocamp_name": "섭새강변 유원지",
+      "autocamp_location": "37.202541599999996,128.5033161",
+      "tag": "1, 3, 5, 16",
+      "subname": "동강오토캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "140",
+      "autocamp_name": "목도 강변유원지",
+      "autocamp_location": "36.885698399999995,127.85439280000001",
+      "tag": "1, 14, 5, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "141",
+      "autocamp_name": "유동 둔치 휴양지",
+      "autocamp_location": "37.343801,128.386971",
+      "tag": "3, 1, 14, 8, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "142",
+      "autocamp_name": "화천박물관",
+      "autocamp_location": "38.0977886,127.70407759999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "143",
+      "autocamp_name": "괴산 후영교 주변",
+      "autocamp_location": "36.697905299999995,127.80391409999999",
+      "tag": "14, 5, 16, 1",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "144",
+      "autocamp_name": "추령천 노지",
+      "autocamp_location": "35.5490822,127.0153119",
+      "tag": "14, 1, 7, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "145",
+      "autocamp_name": "봄여름가을이야기 펜션 주변",
+      "autocamp_location": "36.8889846,128.92735779999998",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "146",
+      "autocamp_name": "용담 섬바위 강변",
+      "autocamp_location": "35.9528223,127.52859459999998",
+      "tag": "1, 3, 14, 13, 9",
+      "subname": "용담 섬바위관광농원 캠핑장 도 있음",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "147",
+      "autocamp_name": "염치저수지",
+      "autocamp_location": "36.8262643,127.0002657",
+      "tag": "14, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "148",
+      "autocamp_name": "오두교 다리밑",
+      "autocamp_location": "37.7460364,127.19865929999999",
+      "tag": "14, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "149",
+      "autocamp_name": "삼척 해변 주변",
+      "autocamp_location": "37.4689212,129.1687881",
+      "tag": "2, 7, 9, 10, 11, 8",
+      "subname": "캠핑장도 있음",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "150",
+      "autocamp_name": "태안 방포항 부근 노지",
+      "autocamp_location": "36.5042362,126.3351719",
+      "tag": "2, 5, 7, 9, 10, 12, 8",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "151",
+      "autocamp_name": "노산리 솔밭 자연유원지",
+      "autocamp_location": "36.453956,127.4408168",
+      "tag": "14, 9, 1, 17, 7",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "152",
+      "autocamp_name": "금소생태공원",
+      "autocamp_location": "36.507995,128.84221979999998",
+      "tag": "17, 7, 8, 9, 1, 13",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "153",
+      "autocamp_name": "하동 상이리 횡천강 계곡",
+      "autocamp_location": "35.1869385,127.78338719999999",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "154",
+      "autocamp_name": "운일암 반일암 ",
+      "autocamp_location": "35.978507,127.40130219999999",
+      "tag": "14, 3, 18, 8, 7, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "155",
+      "autocamp_name": "만다라화 시 공원",
+      "autocamp_location": "34.7992383,128.6121136",
+      "tag": " ",
+      "subname": "주변에 혜양사 솔밭야영장 있음",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "156",
+      "autocamp_name": "고령 신촌유원지 캠핑장",
+      "autocamp_location": "35.67398,128.185378",
+      "tag": "1, 3, 15, 16, 8, 18, 9, 13",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "157",
+      "autocamp_name": "염포 해변",
+      "autocamp_location": "34.4326978,127.4923367",
+      "tag": "2, 7",
+      "subname": "주변에 다도해국립곡원 염포야영장",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "158",
+      "autocamp_name": "주상절리 주차장",
+      "autocamp_location": "35.679927899999996,129.4674494",
+      "tag": "2, 5, 7, 8, 12, 13",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "159",
+      "autocamp_name": "남한강대교B",
+      "autocamp_location": "37.2045095,127.74498870000001",
+      "tag": "1, 17, 14, 12, 13, 9, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "160",
+      "autocamp_name": "남한강대교A",
+      "autocamp_location": "37.2045095,127.74498870000001",
+      "tag": "1, 17, 14, 12, 13, 9, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "161",
+      "autocamp_name": "평창 방림리 평창강변",
+      "autocamp_location": "37.4406603,128.4292212",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "162",
+      "autocamp_name": "금당계곡",
+      "autocamp_location": "37.491681199999995,128.39400089999998",
+      "tag": "4, 14, 15, 16, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "163",
+      "autocamp_name": "솔밭캠프장",
+      "autocamp_location": "37.3282155,128.271255",
+      "tag": "4, 3, 14, 18, 7, 16, 8, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "164",
+      "autocamp_name": "홍천 굴지리 노지",
+      "autocamp_location": "37.705851599999995,127.79916449999997",
+      "tag": "3, 14, 9, 20",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "165",
+      "autocamp_name": "평창 뇌운리 노지",
+      "autocamp_location": "37.4179412,128.36290370000003",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "166",
+      "autocamp_name": "평창 하일리",
+      "autocamp_location": "37.397856499999996,128.3576678",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "167",
+      "autocamp_name": "무주 대소교 주변",
+      "autocamp_location": "35.9759044,127.55704079999998",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "168",
+      "autocamp_name": "금산 무지개다리 강변",
+      "autocamp_location": "36.076277999999995,127.57184930000001",
+      "tag": "1, 14, 8, 12, 17, 9",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "169",
+      "autocamp_name": "영월 주천2교 주변",
+      "autocamp_location": "37.2701224,128.2669364",
+      "tag": " ",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "170",
+      "autocamp_name": "보성 겸백 솔밭",
+      "autocamp_location": "34.826006,127.15416409999997",
+      "tag": "1, 14, 15, 8, 3, 9, 11",
+      "subname": "다락금유원지",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "171",
+      "autocamp_name": "밀양 금시당 유원지",
+      "autocamp_location": "35.4871698,128.78398869999998",
+      "tag": "1, 14, 13, 8, 9, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "172",
+      "autocamp_name": "도리지구공원 주변",
+      "autocamp_location": "37.228059,127.7089328",
+      "tag": "1, 5, 3, 14, 10, 12",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "173",
+      "autocamp_name": "맹방해변 노지",
+      "autocamp_location": "37.3888385,129.2350875",
+      "tag": "2, 7, 14, 18, 8, 9, 11",
+      "subname": "맹방비치캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "174",
+      "autocamp_name": "영월 선돌관광지 주변",
+      "autocamp_location": "37.204659299999996,128.4337452",
+      "tag": " ",
+      "subname": "선돌관광지",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "175",
+      "autocamp_name": "영월 서강변",
+      "autocamp_location": "37.206298499999995,128.4159517",
+      "tag": "1, 5, 16, 14, 9, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "176",
+      "autocamp_name": "울산 정자저수지",
+      "autocamp_location": "35.6105582,129.40846009999999",
+      "tag": "4, 5",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용불가, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "177",
+      "autocamp_name": "문경 야구장",
+      "autocamp_location": "36.554029899999996,128.2892928",
+      "tag": "14, 7, 13, 9, 1, 17, 6, 8, 10",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "178",
+      "autocamp_name": "장미공원",
+      "autocamp_location": "35.2857995,126.68518669999999",
+      "tag": "14, 17, 7, 8, 9, 11",
+      "subname": " ",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    },
+    {
+      "autocamp_id": "179",
+      "autocamp_name": "마시안 해변",
+      "autocamp_location": "37.4317914,126.41658369999999",
+      "tag": "18, 13, 15, 7, 9",
+      "subname": "마시란 캠핑장",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용불가, 수돗물 사용불가"
+    },
+    {
+      "autocamp_id": "180",
+      "autocamp_name": "실미도 유원지",
+      "autocamp_location": "37.4017948,126.40208589999997",
+      "tag": "2, 5, 7, 9, 12, 10, 15, 8",
+      "subname": "실미유원지",
+      "autocamp_add_info": "화장실 사용가능, 개수대 사용가능, 수돗물 사용가능"
+    }
+  ]
+}

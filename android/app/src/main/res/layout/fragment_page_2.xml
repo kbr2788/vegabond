@@ -7,7 +7,7 @@
     tools:context=".FragmentPage2">
 
     <Button
-        android:id="@+id/btn_kangwon"
+        android:id="@+id/btn_1"
         android:background="#00ff0000"
         android:layout_width="131dp"
         android:layout_height="125dp"
@@ -17,19 +17,19 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_sudogwon"
+        android:id="@+id/btn_0"
         android:background="#00ff0000"
         android:layout_width="125dp"
         android:layout_height="146dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="104dp"
-        app:layout_constraintEnd_toStartOf="@+id/btn_kangwon"
+        app:layout_constraintEnd_toStartOf="@+id/btn_1"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_chungnam"
+        android:id="@+id/btn_3"
         android:background="#00ff0000"
         android:layout_width="110dp"
         android:layout_height="94dp"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_chungbuk"
+        android:id="@+id/btn_2"
         android:background="#00ff0000"
         android:layout_width="45dp"
         android:layout_height="120dp"
@@ -49,7 +49,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_gyeongbuk"
+        android:id="@+id/btn_4"
         android:background="#00ff0000"
         android:layout_width="120dp"
         android:layout_height="128dp"
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_jeonbuk"
+        android:id="@+id/btn_6"
         android:background="#00ff0000"
         android:layout_width="97dp"
         android:layout_height="70dp"
@@ -69,7 +69,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_gyeongnam"
+        android:id="@+id/btn_5"
         android:background="#00ff0000"
         android:layout_width="136dp"
         android:layout_height="95dp"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_jeonnam"
+        android:id="@+id/btn_7"
         android:background="#00ff0000"
         android:layout_width="125dp"
         android:layout_height="118dp"
@@ -89,7 +89,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_jeju"
+        android:id="@+id/btn_8"
         android:background="#00ff0000"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         app:layout_constraintStart_toStartOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/btn_dokdo"
+        android:id="@+id/btn_9"
         android:background="#00ff0000"
         android:layout_width="61dp"
         android:layout_height="49dp"
